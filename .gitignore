@@ -1,0 +1,74 @@
+# ------------------------
+# Java Project .gitignore
+# ------------------------
+
+# Ignore compiled class files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore generated WAR or JAR files
+*.war
+*.jar
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files (Eclipse, IntelliJ, VSCode)
+# Eclipse
+.project
+.classpath
+.settings/
+# IntelliJ
+.idea/
+*.iml
+*.iws
+# VSCode
+.vscode/
+
+# Ignore build directories
+target/
+build/
+out/
+
+# Ignore Tomcat work/catalina files
+work/
+temp/
+logs/
+
+# Ignore server config if present
+server.xml
+context.xml
+
+# Ignore database config backups
+*.sql~
+*.bak
+*.tmp
+
+# Ignore sensitive config (if any)
+dbconfig.properties
+.env
+
+# Node or frontend tools (if used)
+node_modules/
+dist/
+npm-debug.log*
+
+# Maven (if used)
+.mvn/
+.mvnw
+.mvnw.cmd
+
+# Gradle (if used)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
